@@ -22,10 +22,8 @@ const axios = require('axios');
 const BrowerWindow = require('electron').remote.BrowserWindow;
 const {remote, ipcRenderer} = require('electron');
 
-var searchPath = "/search?checkFrom=searchBox&key=";
 var searchUrl = "https://www.tianyancha.com";
-var keywords = "上海孩子通信息科技有限公司";
-var companyUrl = "https://www.tianyancha.com/company/";
+var searchPath = "/search?checkFrom=searchBox&key=";
 var companyPath = "/company/";
 var cookies = "";
 
